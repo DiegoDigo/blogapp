@@ -180,7 +180,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void updateUi() {
-        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+        Intent intent = new Intent(getApplicationContext(), Home.class);
         startActivity(intent);
         finish();
     }
